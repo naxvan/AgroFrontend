@@ -1,0 +1,60 @@
+footer {
+  background-color: rgb(236, 236, 236);
+  padding: 20px 0;
+  font-family: Poppins;
+}
+
+.containerf {
+  max-width: calc(100% - 520px);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h5{
+  font-size: large;
+}
+
+footer .box-1,
+footer .box-2,
+footer .box-3 {
+  flex: 1;
+  margin-right: 20px;
+
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+footer a:hover {
+  color: green;
+  font-size: large;
+  border-bottom: 1px solid green;
+}
+
+.iconoss{
+  display: flex;
+  a{
+    margin: 15px;
+    font-size: 20px;
+  }
+}
+
+footer img {
+  width: 400px;
+}

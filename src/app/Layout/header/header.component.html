@@ -1,0 +1,48 @@
+<header>
+  <div class="banner">
+    <h1>Miércoles de Frutas y Verduras: 30% de Descuento.</h1>
+  </div>
+
+  <nav>
+    <div class="nav-container">
+      <div class="home">
+        <h1> <a href="/v1/agroapp">AgroAppCo</a></h1>
+      </div>
+      <div class="select-container">
+        <input type="button" value="Menu Productos" />
+      </div>
+      <div class="search">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Buscar Productos"
+          aria-label="Buscar productos"
+        />
+      </div>
+
+      <div class="auth-buttons">
+        <form action="/v1/agroapp/login" method="get">
+          <i class="fa-regular fa-user"></i>
+          <button type="submit">Acceder</button>
+        </form>
+        <form action="/register" method="get">
+          <i class="fa-regular fa-user"></i>
+          <button type="submit">Registro</button>
+        </form>
+        <form action="/cart" method="get">
+          <i class="fa-regular fa-user"></i>
+          <button type="button">Cart</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="social-page">
+    <ul>
+      <li class="icon"><a href="mailto:AgroApp@Agroco.com">Descuentos</a></li>
+      <li class="icon"><a href="https://wa.me/573017859017" target="_blank">whatsApp</a></li>
+      <li class="icon"><a href="mailto:AgroApp@Agroco.com">{{ email }}</a></li>
+    </ul>
+  </div>
+</header>
